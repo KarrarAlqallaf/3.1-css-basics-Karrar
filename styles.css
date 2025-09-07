@@ -17,6 +17,28 @@ span {
 
 
 /* TODO 2: Class Selectors */
+/* Style usernames */
+.username {
+    color: #1877f2;
+    font-weight: bold;
+}
+
+/* Style blue post text */
+.blue-text {
+    color: #4267B2;
+}
+
+/* Style red post text */
+.red-text {
+    color: #e74c3c;
+}
+
+/* Style highlighted/pinned posts */
+.highlight {
+    background-color: #f0f2f5;
+    padding: 15px;
+}
+
 /* Style usernames with class "username" to have color: #1877f2 and font-weight: bold */
 
 
