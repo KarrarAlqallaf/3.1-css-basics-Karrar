@@ -95,11 +95,16 @@ p.winner { color: #95a5a6; }
 
 /* TODO 8: Group Selectors */
 /* Style trending tags h4, h5, h6 with class "trending-tag" to have color: #8b9dc3 and font-family: Arial */
-
+h4.trending-tag, h5.trending-tag, h6.trending-tag {
+    color: #8b9dc3;
+    font-family: Arial;
+}
 
 /* TODO 9: Universal Selector */
 /* Use universal selector to add box-sizing: border-box to all elements */
-
+{
+    box-sizing: border-box;
+}
 
 /* Basic Social Media Styling (Already completed for you) */
 body {
