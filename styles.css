@@ -82,10 +82,16 @@ p.winner { color: #95a5a6; }
 
 /* TODO 7: Pseudo-classes */
 /* Style buttons with class "send-button" on hover to have background-color: #3b5998 and color: white */
-
+.send-button:hover {
+    background-color: #3b5998;
+    color: white;
+}
 
 /* Style links with class "chat-link" on hover to have color: #1877f2 and text-decoration: none */
-
+.chat-link:hover {
+    color: #1877f2;
+    text-decoration: none;
+}
 
 /* TODO 8: Group Selectors */
 /* Style trending tags h4, h5, h6 with class "trending-tag" to have color: #8b9dc3 and font-family: Arial */
