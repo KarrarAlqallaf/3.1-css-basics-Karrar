@@ -70,10 +70,15 @@ p.winner { color: #95a5a6; }
 
 /* TODO 6: Descendant Selectors */
 /* Style messages inside elements with class "chat-container" to have color: #2c3e50 */
-
+.chat-container .message {
+    color: #2c3e50;
+}
 
 /* Style message times inside elements with class "chat-container" to have color: #7f8c8d and font-size: 12px */
-
+.chat-container .message-time {
+    color: #7f8c8d;
+    font-size: 12px;
+}
 
 /* TODO 7: Pseudo-classes */
 /* Style buttons with class "send-button" on hover to have background-color: #3b5998 and color: white */
