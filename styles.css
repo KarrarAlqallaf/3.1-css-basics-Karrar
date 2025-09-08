@@ -50,16 +50,16 @@ span {
 /* TODO 4: Specificity Battle */
 /* Create multiple rules for the bio with id "specificity-test" and class "winner" */
 /* Rule 1: Use element selector p to make color: #333 */
-
+p { color: #333; }
 
 /* Rule 2: Use class selector .winner to make color: #ff6b6b */
-
+.winner { color: #ff6b6b; }
 
 /* Rule 3: Use ID selector #specificity-test to make color: #4ecdc4 */
-
+#specificity-test { color: #4ecdc4; }
 
 /* Rule 4: Use element + class selector p.winner to make color: #95a5a6 */
-
+p.winner { color: #95a5a6; }
 
 /* TODO 5: !important Override */
 /* Use !important to override inline styles for class "important-test" */
