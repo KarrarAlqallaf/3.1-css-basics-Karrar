@@ -64,7 +64,9 @@ p.winner { color: #95a5a6; }
 /* TODO 5: !important Override */
 /* Use !important to override inline styles for class "important-test" */
 /* Make the color: #e67e22 !important */
-
+.important-test {
+    color: #e67e22 !important;
+}
 
 /* TODO 6: Descendant Selectors */
 /* Style messages inside elements with class "chat-container" to have color: #2c3e50 */
